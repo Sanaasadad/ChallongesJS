@@ -7,8 +7,15 @@
 </head>
 <body>
     <div style="display: flex; justify-content: center; align-items: center; font-size: 500px; font-weight: 200px; width: 100%;">
-        <button onclick="this.innerHTML = 'hello World'" id="button"> Clique ici </button>
+        <button id="button"> Clique ici </button>
 
     </div>
+    <script>
+        var x = document.getElementById("button");
+        x.addEventListener("click",function(){
+        x.innerHTML="hello word";
+        });
+    </script>
 </body>
+
 </html>

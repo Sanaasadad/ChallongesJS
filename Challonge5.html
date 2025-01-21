@@ -6,15 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-     <input id="name">
-     <label>Name</label><button type = "button" onclick="afficher()"> Clique ici</button>
+    <label>Name </label>
+    <input type="text" id="name">
+     <button type = "button" onclick="afficher()"> Clique ici</button>
 </body>
 <script>
     function afficher(){
         let x = document.getElementById("name");
         if(x.value == ""){
             alert("cette case doit remplir");
-        }false
+        }
+        x.value="";
+
     }
 </script>
 </html>
