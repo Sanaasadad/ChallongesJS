@@ -6,14 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <div style="display: flex; justify-content: center;">
-    <button id="ele"> clique ici </button>
+    
+    <button id="ele" onclick="B()"> clique ici </button>
    
-</div>
+
    <script>
+    function B(){
     document.getElementById("ele").style.backgroundColor="blue";
     document.getElementById("ele").style.color = "white";
-    
+    }
    </script>
 </body>
 
